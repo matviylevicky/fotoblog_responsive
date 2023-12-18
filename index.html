@@ -45,11 +45,33 @@
           <div class="fotoblog__items">
             <article class="fotoblog__item fotocard">
               <div class="fotocard__foto">
-                <img
-                  src="/src/img/1.jpg"
-                  alt="LIFESTYLE_foto"
-                  class="fotocard__img"
-                />
+                <picture class="fotoblog__img">
+                  <source
+                    srcset="
+                      ./src/img/responsive/desktop/1-desktop@1x.jpg,
+                      ./src/img/responsive/desktop/1-desktop@2x.jpg
+                    "
+                    @media="(min-width:1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./src/img/responsive/tablet/1-yablet@1x.jpg,
+                      ./src/img/responsive/tablet/1-yablet@2x.jpg
+                    "
+                    @media="(min-width:768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./src/img/responsive/mobile/1-mobile@1x.jpg,
+                      ./src/img/responsive/mobile/1-mobile@2x.jpg
+                    "
+                    @media="(min-width:480px)"
+                  />
+
+                  <img src="/src/img/1.jpg" alt="LIFESTYLE_foto" />
+                </picture>
               </div>
               <span class="fotocard__category">LIFESTYLE</span>
               <h2 class="fotocard__title">More than just a music festival</h2>
@@ -62,11 +84,30 @@
             </article>
             <article class="fotoblog__item fotocard">
               <div class="fotocard__foto">
-                <img
-                  src="/src/img/2.jpg"
-                  alt="LIFESTYLE_foto"
-                  class="fotocard__img"
-                />
+                <picture class="fotoblog__img">
+                  <source
+                    srcset="
+                      ./src/img/responsive/desktop/2-desktop@1x.jpg,
+                      ./src/img/responsive/desktop/2-desktop@2x.jpg
+                    "
+                    @media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./src/img/responsive/tablet/2-tablet@1x.jpg,
+                      ./src/img/responsive/tablet/2-tablet@2x.jpg
+                    "
+                    @media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./src/img/responsive/mobile/2-mobile@1x.jpg,
+                      ./src/img/responsive/mobile/2-mobile@2x.jpg
+                    "
+                    @media="(min-width:480px)"
+                  />
+                  <img src="/src/img/2.jpg" alt="LIFESTYLE_foto" />
+                </picture>
               </div>
               <span class="fotocard__category">LIFESTYLE</span>
               <h2 class="fotocard__title">Life tastes better with coffee</h2>
@@ -79,11 +120,30 @@
             </article>
             <article class="fotoblog__item fotocard">
               <div class="fotocard__foto">
-                <img
-                  src="/src/img/3.jpg"
-                  alt="PHOTODAIRY_foto"
-                  class="fotocard__img"
-                />
+                <picture class="fotoblog__img">
+                  <source
+                    srcset="
+                      ./src/img/responsive/desktop/3-desktop@1x.jpg,
+                      ./src/img/responsive/desktop/3-desktop@2x.jpg
+                    "
+                    @media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./src/img/responsive/tablet/3-tablet@1x.jpg,
+                      ./src/img/responsive/tablet/3-tablet@2x.jpg
+                    "
+                    @media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./src/img/responsive/mobile/3-mobile@1x.jpg,
+                      ./src/img/responsive/mobile/3-mobile@2x.jpg
+                    "
+                    @media="(min-width:480px)"
+                  />
+                  <img src="/src/img/3.jpg" alt="PHOTODAIRY_foto" />
+                </picture>
               </div>
               <span class="fotocard__category">PHOTODAIRY</span>
               <h2 class="fotocard__title">American dream</h2>
@@ -96,11 +156,30 @@
             </article>
             <article class="fotoblog__item fotocard">
               <div class="fotocard__foto">
-                <img
-                  src="/src/img/4.jpg"
-                  alt="PHOTODAIRY_foto"
-                  class="fotocard__img"
-                />
+                <picture class="fotoblog__img">
+                  <source
+                    srcset="
+                      ./src/img/responsive/desktop/4-desctop@1x.jpg,
+                      ./src/img/responsive/desktop/4-desctop@2x.jpg
+                    "
+                    @media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./src/img/responsive/tablet/4-tablet@1x.jpg,
+                      ./src/img/responsive/tablet/4-tablet@1x.jpg
+                    "
+                    @media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./src/img/responsive/mobile/4-mobile@1x.jpg,
+                      ./src/img/responsive/mobile/4-mobile@2x.jpg
+                    "
+                    @media="(min-width:480px)"
+                  />
+                  <img src="/src/img/4.jpg" alt="PHOTODAIRY_foto" />
+                </picture>
               </div>
               <span class="fotocard__category">PHOTODAIRY</span>
               <h2 class="fotocard__title">A day exploring the Alps</h2>
